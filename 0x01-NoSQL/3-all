@@ -1,3 +1,2 @@
 // A script that lists to documents in the collection school
-mongo my_db --eval "db.school.find()"
-
+db.school.find()
