@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+//Mongodb to insert a document in the collection school
+
+// One attribute name with the value "Holberton School"
+db.school.insertOne({ name: "Holberton school" })
